@@ -99,9 +99,9 @@ export default function Footer() {
                         <h4 className="text-secondary/40 text-xs font-semibold uppercase tracking-widest">Legal</h4>
                         <ul className="flex flex-col gap-3">
                             {[
-                                { label: "Privacy Policy", href: "#" },
-                                { label: "Terms of Service", href: "#" },
-                                { label: "Cookie Policy", href: "#" },
+                                { label: "Privacy Policy", href: "/privacy_policy" },
+                                { label: "Terms of Service", href: "/tors" },
+                                { label: "Cookie Policy", href: "/cookie-policy" },
                             ].map((link) => (
                                 <li key={link.label}>
                                     <Link href={link.href} className="text-secondary/55 hover:text-primary text-sm transition-colors duration-200">

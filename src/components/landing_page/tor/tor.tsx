@@ -143,7 +143,7 @@ export default function TermsContent() {
         {/* ── Bottom strip ── */}
         <div className="mt-16 pt-10 border-t border-dark/8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <p className="text-dark/40 text-xs leading-relaxed max-w-sm">
-            Questions about these terms? We're happy to clarify anything.
+            Questions about these terms? We&apos;re happy to clarify anything.
           </p>
           <a
             href="/contact"

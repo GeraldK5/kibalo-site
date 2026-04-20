@@ -97,7 +97,7 @@ export default function Reviews() {
                                         {/* Quote content */}
                                         <div className="flex flex-col gap-3 px-6 py-7 flex-1">
                                             <span className="text-40 font-bold text-primary leading-none select-none">
-                                                "
+                                                &quot;
                                             </span>
                                             <p className="text-dark/65 text-sm leading-relaxed -mt-2">
                                                 {review.quote}

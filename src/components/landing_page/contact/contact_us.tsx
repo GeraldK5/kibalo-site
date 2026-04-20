@@ -55,7 +55,7 @@ export default function ContactForm() {
                                     href="mailto:hello@kibalo.app"
                                     className="text-dark font-medium text-sm hover:text-primary transition-colors duration-200"
                                 >
-                                    odokonyerogerald@gmail.com
+                                    productivityaccelerationbureau@gmail.com
                                 </a>
                             </div>
                             <div className="flex flex-col gap-0.5">
