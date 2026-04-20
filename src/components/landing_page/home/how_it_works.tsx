@@ -85,7 +85,7 @@ export default function HowItWorks() {
               </p>
             </div>
 
-            <Carousel setApi={setApi} className="w-full max-w-sm">
+            {/* <Carousel setApi={setApi} className="w-full max-w-sm">
               <CarouselContent>
                 {videos.map((video, i) => (
                   <CarouselItem key={i}>
@@ -106,7 +106,7 @@ export default function HowItWorks() {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-            </Carousel>
+            </Carousel> */}
 
             {/* Dot indicators */}
             <div className="flex items-center justify-center gap-2 mt-1">
