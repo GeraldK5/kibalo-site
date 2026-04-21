@@ -45,7 +45,7 @@ export default function Navbar() {
         {/* Desktop CTA */}
         <div className="hidden md:flex items-center gap-3">
           <a
-            href="#"
+            href="https://play.google.com/store/apps/details?id=com.kibalo.app"
             className="flex items-center gap-2.5 px-4 py-2 rounded-xl bg-dark hover:bg-primary transition-all duration-200 shadow-sm hover:shadow-md"
           >
             <svg className="w-4 h-4 text-white flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
@@ -102,7 +102,7 @@ export default function Navbar() {
             <div className="px-4 pb-8 flex flex-col gap-3 border-t border-white/10 pt-5">
               <SheetClose asChild>
                 <a
-                  href="#"
+                  href="https://play.google.com/store/apps/details?id=com.kibalo.app"
                   className="flex items-center gap-3 px-4 py-3 rounded-xl bg-white/8 hover:bg-primary border border-white/10 hover:border-primary transition-all duration-200"
                 >
                   <svg className="w-5 h-5 text-white flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">

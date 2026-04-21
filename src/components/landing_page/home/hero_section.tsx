@@ -39,7 +39,7 @@ export default function HeroSection() {
                         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 mt-2">
                             {/* Play Store */}
                             <a
-                                href="#"
+                                href="https://play.google.com/store/apps/details?id=com.kibalo.app"
                                 className="flex items-center gap-3 px-5 py-3 rounded-2xl bg-dark hover:bg-primary transition-all duration-300 group shadow-md hover:shadow-lg hover:-translate-y-0.5"
                             >
                                 <svg className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="currentColor">
