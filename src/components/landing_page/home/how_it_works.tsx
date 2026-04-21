@@ -76,14 +76,14 @@ export default function HowItWorks() {
 
           {/* Right — video carousel */}
           <div className="flex flex-col gap-4">
-            <div>
+            {/* <div>
               <h3 className="text-lg font-semibold text-dark tracking-tight">
                 Tutorials
               </h3>
               <p className="text-sm text-dark/50 mt-1">
                 Watch short guides and get up to speed in minutes.
               </p>
-            </div>
+            </div> */}
 
             {/* <Carousel setApi={setApi} className="w-full max-w-sm">
               <CarouselContent>
