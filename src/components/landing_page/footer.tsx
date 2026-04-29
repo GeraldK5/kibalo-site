@@ -13,7 +13,7 @@ export default function Footer() {
                     <div className="lg:col-span-1 flex flex-col gap-5">
                         {/* Logo */}
                         <Link href="/" className="flex items-center gap-2 group">
-                            <Image src="/logos/logo.svg" alt="Kibalo logo" width={32} height={32} className="rounded-lg" />
+                            <Image src="/logos/logo.png" alt="Kibalo logo" width={50} height={50} className="rounded-lg" />
                             <span className="text-secondary font-semibold text-xl tracking-tight" style={{ fontFamily: "var(--font-sora)" }}>
                                 Kibalo App
                             </span>

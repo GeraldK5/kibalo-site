@@ -24,7 +24,7 @@ export default function Navbar() {
 
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
-          <Image src="/logos/logo.svg" alt="Kibalo logo" width={32} height={32} className="rounded-lg" />
+          <Image src="/logos/logo2.png" alt="Kibalo logo" width={60} height={60} className="rounded-lg" />
           <span className="text-[#172023] font-semibold text-xl tracking-tight" style={{ fontFamily: "var(--font-sora)" }}>
             Kibalo App
           </span>
@@ -77,7 +77,7 @@ export default function Navbar() {
             {/* Sheet header */}
             <div className="flex items-center justify-between px-6 py-5 border-b border-white/10">
               <Link href="/" className="flex items-center gap-2">
-                <Image src="/logos/logo.svg" alt="Kibalo logo" width={32} height={32} className="rounded-lg" />
+                <Image src="/logos/logo2.png" alt="Kibalo logo" width={60} height={60} className="rounded-lg" />
                 <span className="text-secondary font-bold text-xl tracking-tight" style={{ fontFamily: "var(--font-sora)" }}>
                   Kibalo
                 </span>

@@ -57,7 +57,7 @@ const jsonLd = {
   '@type': 'Organization',
   name: 'Kibalo',
   url: 'https://kibalo.stipab.org',
-  logo: 'https://kibalo.stipab.org/logos/logo.svg',
+  logo: 'https://kibalo.stipab.org/logos/logo.png',
   sameAs: [
     'https://twitter.com/science-technology-and-innovation-secretariat',
     'https://linkedin.com/company/science-technology-and-innovation-secretariat',
@@ -71,16 +71,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={cn("font-sans", geist.variable)}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className={`${sora.variable} ${dmSans.variable} antialiased`}>
         <Providers>
           {children}
           <Toaster />
         </Providers>
       </body>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+
     </html>
   );
 }
